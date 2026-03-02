@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elegant Countdown</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ababee;
+    color:rgb(33, 84, 223);
+}
+
+/* Soft gradient background glow */
+body::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background: radial-gradient(circle, rgba(5, 40, 40, 0.4), transparent 70%);
+    filter:blur(120px);
+    animation:move 6s infinite alternate ease-in-out;
+}
+
+@keyframes move{
+    from{transform:translate(-100px,-100px);}
+    to{transform:translate(100px,100px);}
+}
+
+.container{
+    text-align:center;
+    z-index:1;
+}
+
+h1{
+    font-size:35px;
+    letter-spacing:3px;
+    margin-bottom:30px;
+    opacity:0.8;
+}
+
+#countdown{
+    font-size:90px;
+    font-weight:bold;
+    color:#022828;
+    text-shadow:0 0 20px #00ffff,
+                0 0 40px #00ffff,
+                0 0 80px #00ffff;
+    transition:all 0.4s ease;
+}
+
+.celebrate{
+    font-size:50px !important;
+    color:#ff00ff !important;
+    text-shadow:0 0 20px #ff00ff,
+                0 0 40px #ff00ff,
+                0 0 80px #ff00ff;
+    animation:pulse 1s infinite alternate;
+}
+
+@keyframes pulse{
+    from{transform:scale(1);}
+    to{transform:scale(1.1);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>✨ COUNTDOWN ✨</h1>
+    <div id="countdown">10</div>
+</div>
+
+<script>
+let i = 9;
+let countdownEl = document.getElementById("countdown");
+
+let timer = setInterval(() => {
+    if (i > 0) {
+        countdownEl.innerText = i;
+        i--;
+    } else {
+        countdownEl.innerText = "🎉 HAPPY NEW YEAR 🎉";
+        countdownEl.classList.add("celebrate");
+        clearInterval(timer);
+    }
+}, 1000);
+</script>
+
+</body>
+</html>
