@@ -1,6 +1,6 @@
 // FIRST WAY TO CREATE ARRAY
 
-// const arr = ["1", 2, null, undefined, { name: "abhishek"}, ["a"]]
+// const arr = ["1", 2, null, undefined, { name: "ryuzaki"}, ["a"]]
 // console.log(arr);
 
 // SECOND WAY TO CREATE ARRAY
