@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const User = () => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);     // useState ka use hum component ke andar data store karne aur update karne ke liye karte hain.
 
     const Increment = () => {
         setCount((prev) => {
