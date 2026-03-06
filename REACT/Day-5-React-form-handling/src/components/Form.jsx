@@ -43,7 +43,7 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData)
-        setFormData({
+        setFormData({                              // Form submit hone ke baad saare inputs empty ho jayenge.
             username: "",
             email: "",
             password: "",
