@@ -1,4 +1,4 @@
-// User Defined Methods of Number
+// USER DEFINED METHODS OF NUMBER
 
 // console.log(Object.getOwnPropertyNames(Number.prototype))
 
