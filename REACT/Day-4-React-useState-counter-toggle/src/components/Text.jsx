@@ -13,7 +13,7 @@ const ShowName = () => {
             <button onClick={handleClick}>{ show ? "Hide" : "Unhide"}</button>
             {
                 show && (
-                    <>
+                    <> 
                     <h1>Light Yagami</h1>
                     </>
                 )
