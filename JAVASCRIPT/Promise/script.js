@@ -48,7 +48,7 @@
 
 // MODERN WAY
 
-// const getUser = async () => {                             // iss function ke andar asynchronous kaam hoga
+// const getUser = async () => {                             // iss function ke andr asynchronous kaam hoga
 //     try {
 //         const result = await getUserData;
 //         console.log(result);
