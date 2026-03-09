@@ -122,7 +122,7 @@
 //         console.log("SATURDAY");
 //         break;
 //     default:
-//         console.log("Ye konsa day hai bhai!!!")
+//         console.log("Ye konsa day hai bhai!!")
 // }
 
 // -----------------------------------------------------------------------------
