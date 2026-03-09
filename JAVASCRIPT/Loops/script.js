@@ -186,7 +186,6 @@
 //     console.log(item.toUpperCase())
 // })
 
-
 // let prices = [100, 200, 300];  // return new array with 18% gst;
 
 // const gstPrices = prices.map(price => price + (price * 18 / 100));  // 0.18
