@@ -24,7 +24,7 @@
 // FUNCTIONS
 
 // function test() {
-//   a = "abhishek";
+//   a = "Abhishek";
 //   console.log(a, "test1");
 //   return;
 // }
