@@ -26,6 +26,7 @@
 //     };
 // }
 
+
 // const u1 = new User("Naruto", 22);
 // const u2 = new User("Hinata", 20);
 
