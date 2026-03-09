@@ -75,7 +75,7 @@
 
 // -----------------------------------------------------------------------------------------------------------------------
 
-// CLOSURE - Inner function ko outer function ke variables yaad rehte hain. - lexical scope
+// CLOSURE - Inner function ko outer function ke variables yaad rehte hain - lexical scope
 
 // function outer() {
 //     let count = 0;
