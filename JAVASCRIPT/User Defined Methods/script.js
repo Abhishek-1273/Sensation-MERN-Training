@@ -5,6 +5,7 @@
 // ---------------------------------------------------------------------------
 
 // EVEN NUMBER CHECKER
+
 // Number.prototype.Even_Number_Checker = (num1) => {
 //     return num1 % 2 === 0;
 // };
@@ -17,6 +18,7 @@
 // ----------------------------------------------------------------------------
 
 // ODD NUMBER CHECKER
+
 // Number.prototype.Odd_Number_Checker = function(){
 //     return this % 2 === 1;
 // };
@@ -27,6 +29,7 @@
 // ----------------------------------------------------------------------------
 
 // POSITIVE NUMBER CHECKER
+
 // Number.prototype.Positive_Number_Checker = (num3) =>{
 //     return num3 >= 0;
 // }
