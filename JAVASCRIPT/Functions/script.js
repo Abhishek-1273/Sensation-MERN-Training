@@ -37,6 +37,7 @@
 
 // console.log(taxCalculator(200))
 
+
 // TABLE GENERATOR
 
 // function tableGenerator(n) {

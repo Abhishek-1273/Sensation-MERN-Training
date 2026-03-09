@@ -57,7 +57,6 @@
 //     return n * n;
 // }
 
-
 // greet()
 // function greet(){
 //     const name = "Abhishek";
