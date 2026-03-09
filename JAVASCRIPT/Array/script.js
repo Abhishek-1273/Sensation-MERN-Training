@@ -108,9 +108,9 @@
 
 // let splice = arr.splice(1, 2, "two", "three")
 // let pop = arr.pop()
-// let push = arr.push("six")
+// let push = arr.push("seven")
 // console.log(arr)
 
-// result: [1, "two", "three", 4, 5, "six"]
+// result: [1, "two", "three", 4, 5, "seven"]
 // using : push, pop, splice
 
