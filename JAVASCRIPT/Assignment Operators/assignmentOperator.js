@@ -16,7 +16,7 @@
 
 // -------------------------------------------------------------------------
 
-// PRE INCREMENT 
+// PRE-INCREMENT 
 
 // let b = 10;
 // let c = ++b;  
@@ -24,7 +24,7 @@
 // console.log(b);
 // console.log(c);
 
-// POST INCREMENT
+// POST-INCREMENT
 
 // let d = 20;
 // let e = d++;
