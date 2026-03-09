@@ -2,12 +2,10 @@
 
 // const arr = ["a", "b", "c", "d", "e"];
 
-
 // increment case
 // for (let i = 0; i < arr.length; i++) {
 //     console.log(arr[i], i)
 // }
-
 
 // decrement case
 // for (let i = arr.length - 1; i >= 0; i--) {
