@@ -4,7 +4,6 @@
 // console.log("hello", str);
 // console.log(typeof str);
 
-
 // const str = "Abhishek";
 
 // console.log(str[0]);
