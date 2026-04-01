@@ -1,0 +1,25 @@
+
+{
+  "services":[
+    { "id":1, "title":"Website Development", "price":500, "category":"Development", "description":"Responsive business website development", "image":"https://picsum.photos/300?1" },
+    { "id":2, "title":"E-commerce Website", "price":800, "category":"Development", "description":"Full online store with payment system", "image":"https://picsum.photos/300?2" },
+    { "id":3, "title":"Landing Page Design", "price":150, "category":"Design", "description":"High converting landing page design", "image":"https://picsum.photos/300?3" },
+    { "id":4, "title":"UI/UX Design", "price":250, "category":"Design", "description":"Modern UI/UX design for apps and websites", "image":"https://picsum.photos/300?4" },
+    { "id":5, "title":"Logo Design", "price":100, "category":"Design", "description":"Professional logo design for brands", "image":"https://picsum.photos/300?5" },
+    { "id":6, "title":"SEO Optimization", "price":200, "category":"Marketing", "description":"Improve ranking on Google search", "image":"https://picsum.photos/300?6" },
+    { "id":7, "title":"Social Media Marketing", "price":180, "category":"Marketing", "description":"Grow your brand on social media", "image":"https://picsum.photos/300?7" },
+    { "id":8, "title":"Content Writing", "price":120, "category":"Marketing", "description":"SEO friendly blog and website content", "image":"https://picsum.photos/300?8" },
+    { "id":9, "title":"WordPress Website", "price":300, "category":"Development", "description":"Custom WordPress website development", "image":"https://picsum.photos/300?9" },
+    { "id":10, "title":"Website Maintenance", "price":90, "category":"Support", "description":"Regular website updates and maintenance", "image":"https://picsum.photos/300?10" },
+    { "id":11, "title":"Speed Optimization", "price":140, "category":"Support", "description":"Improve website loading speed", "image":"https://picsum.photos/300?11" },
+    { "id":12, "title":"Mobile App UI Design", "price":260, "category":"Design", "description":"Modern mobile application UI design", "image":"https://picsum.photos/300?12" },
+    { "id":13, "title":"React Website Development", "price":550, "category":"Development", "description":"Modern React based web application", "image":"https://picsum.photos/300?13" },
+    { "id":14, "title":"Portfolio Website", "price":220, "category":"Development", "description":"Personal portfolio website design", "image":"https://picsum.photos/300?14" },
+    { "id":15, "title":"Brand Identity Design", "price":350, "category":"Design", "description":"Complete brand identity package", "image":"https://picsum.photos/300?15" },
+    { "id":16, "title":"Email Marketing", "price":160, "category":"Marketing", "description":"Email campaigns for customer engagement", "image":"https://picsum.photos/300?16" },
+    { "id":17, "title":"Google Ads Setup", "price":210, "category":"Marketing", "description":"Setup and optimize Google Ads campaigns", "image":"https://picsum.photos/300?17" },
+    { "id":18, "title":"Bug Fixing", "price":80, "category":"Support", "description":"Fix bugs and technical issues on website", "image":"https://picsum.photos/300?18" },
+    { "id":19, "title":"API Integration", "price":260, "category":"Development", "description":"Integrate third-party APIs into your website", "image":"https://picsum.photos/300?19" },
+    { "id":20, "title":"Website Security Setup", "price":170, "category":"Support", "description":"Secure your website from attacks", "image":"https://picsum.photos/300?20" }
+  ]
+}  
