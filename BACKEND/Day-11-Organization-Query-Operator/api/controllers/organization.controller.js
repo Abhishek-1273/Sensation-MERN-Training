@@ -12,11 +12,11 @@ export const createOrganization = async (req, res, next) => {
         };
 
         const isCompanyExist = {
-            $or: [{dbaName}, {phoneNumber}, {website}]
+            $or: [{ dbaName }, { phoneNumber }, { website }]
         }
 
         const isCompany = await organizationModel.findOne(isCompanyExist)
-        if (isCompany){
+        if (isCompany) {
             return res.status(400).json({
                 message: "Company already exists"
             })
@@ -44,18 +44,18 @@ export const createOrganization = async (req, res, next) => {
 
 // READ
 
-export const getAllCompanies = async( req, res, next) => {
-    try{
+export const getAllCompanies = async (req, res, next) => {
+    try {
         const companies = await organizationModel.find()
-        if(!companies || companies.length === 0){
-            return res.status(400).json({
-                message: "No company available"
+        if (!companies || companies.length === 0) {
+            return res.status(200).json({
+                message: "No company found"
             })
         }
         return res.status(200).json({
             data: companies,
         })
-    }catch(err){
+    } catch (err) {
         return res.status(500).json({
             message: err.message
         })
