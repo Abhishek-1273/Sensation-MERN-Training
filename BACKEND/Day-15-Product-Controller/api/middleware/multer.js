@@ -4,10 +4,13 @@ import multer from "multer";
 
 const storage = new CloudinaryStorage({
     cloudinary,
-    params: {
-        folder: "compliance_analysis",
-        allowed_formats: ["jpg", "png", "jpeg", "pdf", "webp"]
-    },
-})
+    params: async (req, file) => {
+        return {
+            folder: "compliance_analysis",
+            format: "jpg",        // force convert
+            resource_type: "auto" // ✅ image + pdf dono handle karega
+        };
+    }
+});
 
 export const upload = multer({ storage });

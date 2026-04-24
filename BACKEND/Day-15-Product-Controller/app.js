@@ -22,4 +22,9 @@ app.use("/api/organization", organizationRouter)
 app.use("/api/framework", frameworkRouter)
 app.use("/api/product", productRouter)
 
+app.use((err, req, res, next) => {
+    console.error("ERROR:", err.message);
+    return res.status(500).json({ error: err.message });
+});
+
 export default app;
